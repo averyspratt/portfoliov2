@@ -1,0 +1,81 @@
+body{
+	background: #F8E9A1;
+}
+.initials {
+	width:auto;
+	z-index: 1;
+	font-family:"AvenirNext-Bold";
+	font-size: 4vw;
+	overflow-x:hidden;
+	padding-top: 2vh;
+	padding-left: 2vw;
+	color: #ffffff;
+}
+
+.sidenav {
+	font-family:"AvenirNext-Medium";
+	font-size:2vw;
+	position:fixed;
+	right:0;
+	top:0;
+	padding-top:4vh;
+	padding-right:2vw;
+	text-align:right;
+	color: #374785;
+	overflow-x: hidden;
+}
+#active{
+	color: #ffffff;
+}
+.sidenav a{
+	color: #374785;
+	display:block;
+	text-decoration:none;
+}
+
+.sidenav a:hover{
+	color: #ffffff;
+	text-decoration:none;
+}
+
+
+.selfie{
+	width:30vw;
+	height:auto;
+	margin-left:8vw;
+	margin-top:5vh;
+}
+
+.wavy_text{
+	width: 50vw;
+	height:auto;
+	margin-left:8vw;
+}
+
+.about_text{
+	font-family:"AvenirNext-Regular";
+	font-size: 2vw;
+	color: #24305e;
+	padding-left: 8vw;
+}
+
+.Button{
+    position:absolute;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3vh;
+    background:#f76c6c;
+    color: #ffffff;
+    font-family: "AvenirNext-DemiBold";
+    text-align: center;
+    font-size: 2vw;
+    width: 25vw;
+    border-radius: 10px;
+}
+
+.Button a:hover{
+	text-decoration:none;
+	color:#ffffff;
+}
+
+

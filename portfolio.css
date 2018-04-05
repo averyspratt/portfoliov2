@@ -1,0 +1,87 @@
+body {
+	background: #24305e;
+}
+
+.initials {
+	width:auto;
+	z-index: 1;
+	font-family:"AvenirNext-Bold";
+	font-size: 4vw;
+	overflow-x:hidden;
+	padding-top: 2vh;
+	padding-left: 2vw;
+	color: #ffffff;
+}
+
+.sidenav {
+	font-family:"AvenirNext-Medium";
+	font-size:2vw;
+	position:fixed;
+	right:0;
+	top:0;
+	padding-top:4vh;
+	padding-right:2vw;
+	text-align:right;
+	color: #374785;
+	overflow-x: hidden;
+}
+
+.sidenav a{
+	color: #374785;
+	display:block;
+	text-decoration:none;
+}
+
+.sidenav a:hover{
+	color: #ffffff;
+}
+#active{
+	color: #ffffff;
+}
+
+.image_link{
+	margin-top:15vh;
+	margin-left:auto;
+	margin-right:auto;
+	width:35vw;
+	height:auto;
+}
+
+#top_left{
+	margin-left:2vw;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
