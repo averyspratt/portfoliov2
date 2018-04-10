@@ -18,6 +18,7 @@ body{
 	position:fixed;
 	right:0;
 	top:0;
+    z-index: 2;
 	padding-top:4vh;
 	padding-right:2vw;
 	text-align:right;
@@ -71,11 +72,15 @@ body{
     font-size: 2vw;
     width: 25vw;
     border-radius: 10px;
+    text-decoration: none;
 }
 
-.Button a:hover{
+.Button:hover{
 	text-decoration:none;
 	color:#ffffff;
+    font-style: italic;
+    letter-spacing: .5px;
+    font-family: "AvenirNext-DemiBoldItalic";
 }
 
 

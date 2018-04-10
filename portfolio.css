@@ -2,6 +2,7 @@ body {
 	background: #24305e;
 }
 
+/* initials and links */
 .initials {
 	width:auto;
 	z-index: 1;
@@ -39,16 +40,23 @@ body {
 	color: #ffffff;
 }
 
-.image_link{
-	margin-top:15vh;
-	margin-left:auto;
-	margin-right:auto;
-	width:35vw;
-	height:auto;
+/* portfolio entries and images */
+
+#entries {
+    width: 75vw;
+    margin: auto;
+    margin-top: 50px;
 }
 
-#top_left{
-	margin-left:2vw;
+.entry {
+    margin-bottom: 20px;
+    min-height: 200px; /* temporary */
+    background-color: white; /* same with this */
+}
+
+.entry_image {
+    width: 100%;
+    object-fit: cover;
 }
 
 @-webkit-keyframes fadeInUp {
