@@ -49,14 +49,47 @@ body {
 }
 
 .entry {
+    position: relative;
     margin-bottom: 20px;
-    min-height: 200px; /* temporary */
     background-color: white; /* same with this */
 }
 
 .entry_image {
     width: 100%;
     object-fit: cover;
+}
+
+.entry_button {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(248,233,161,.8);
+    overflow-y: hidden;
+}
+
+.entry_button h3 {
+    margin: 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-family:"AvenirNext-Medium";
+    color: #ffffff;
+}
+
+.entry_button:hover {
+    opacity: 1;
+    -webkit-animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+
 }
 
 @-webkit-keyframes fadeInUp {
@@ -87,9 +120,4 @@ body {
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
-}
-
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
 }
