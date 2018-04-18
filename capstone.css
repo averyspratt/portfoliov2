@@ -1,0 +1,18 @@
+.header_img {
+    width:100vw;
+    /*width:auto;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.panel {
+    overflow: hidden; 
+    height: 100vh;
+}
+
+.one {
+    position: relative;
+    background-color: #2d58b2;
+}
