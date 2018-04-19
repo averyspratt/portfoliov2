@@ -3,6 +3,19 @@ body {
     font-family:"AvenirNext-Medium";
 }
 
+h2 {
+    margin-top: 0;
+    color: #465fa1;
+    font-family:"AvenirNext-BoldItalic";
+}
+
+p {
+    text-indent: 2.5em; 
+}
+.content {
+    margin: 50px;
+}
+
 .header_img {
     width:100vw;
     /*width:auto;*/
@@ -12,25 +25,67 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.panel {
+.blurb {
+    margin-top: 25vh;
+}
+
+.pane {
     overflow: hidden; 
     height: 100vh;
 }
 
-.content {
-    margin: 50px;
-}
 
 .one {
     position: relative;
-    background-color: #2d58b2;
+    background-color: #465fa1;
 }
 
-h2 {
+.two {
+    position: relative;
+}
+
+.big_numeral {
     font-family:"AvenirNext-Bold";
-    font-size: 52px;
+    color: #465fa1;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 0;
 }
 
-p {
-    font-size: 16px;
+@media (min-width: 992px) {
+    h2 {
+        font-size: 52px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    h2 {
+        font-size: 46px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+    .big_numeral {
+        font-size: 52px;
+        text-align: left;
+        margin: 0;
+    }
+    h2 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+.blurb p{
+    font-size: 20px;
 }
