@@ -39,13 +39,13 @@ a:hover {
 
 @media (orientation: landscape) {
     .full_img {
-        width:100vw;
+        width:100%;
     }
 }
 
 @media (orientation: portrait) {
     .full_img {
-        height:100vh;
+        height:100%;
     }
 
 }
@@ -103,8 +103,7 @@ a:hover {
     margin-right: 80px;
 }
 
-.four p {
-    text-indent: 2.5em;
+.four .full_img {
 }
 
 
@@ -119,7 +118,7 @@ a:hover {
 
 .color_block {
     height: 100vh;
-    background-color: #6884fe;
+    background-color: #ffd21a;
 }
 
 .color_block h2 {
