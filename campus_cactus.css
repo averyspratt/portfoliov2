@@ -12,6 +12,19 @@ h2 {
 p {
      
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+    font-family: "AvenirNext-MediumItalic";
+    letter-spacing: .1px;
+}
+
 .content {
     margin: 50px;
 }
@@ -61,16 +74,33 @@ p {
 
 .three h2 {
     color: #6884fe;
+    margin-bottom: 0px;
+}
+
+.three h3 {
+    color: #6884fe;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.three a {
+    border-bottom: 2px solid #ffffff;
+}
+
+.three h3 a {
+    border: none;
 }
 
 .three p {
+    font-size: 20px;
     color: #ffffff;
 }
 
 .three .content {
     margin-top: 100px;
     margin-left: 30px;
-    margin-right: 55px;
+    margin-right: 80px;
 }
 
 .four p {
