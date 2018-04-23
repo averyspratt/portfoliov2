@@ -10,7 +10,7 @@ h2 {
 }
 
 p {
-     
+    font-size: 20px;
 }
 
 a {
@@ -105,10 +105,11 @@ a:hover {
 
 .three .content {
     margin-left: 30px;
-    margin-right: 80px;
+    margin-right: 100px;
 }
 
-.four .full_img {
+.four p {
+    font-size: 20px;
 }
 
 .five {
@@ -123,9 +124,14 @@ a:hover {
 }
 
 .five h3 {
+    font-family:"AvenirNext-Bold";
     margin-top: 0px;
     margin-bottom: 15px;
-    font-size: 26px;
+    font-size: 22px;
+}
+
+.five p {
+    font-size: 20px;
 }
 
 
