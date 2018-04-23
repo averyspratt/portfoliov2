@@ -25,9 +25,6 @@ a:hover {
     letter-spacing: .1px;
 }
 
-.content {
-    margin: 50px;
-}
 
 .full_img {
     position: absolute;
@@ -63,6 +60,15 @@ a:hover {
     height: 100vh;
 }
 
+.vertical_parent {
+    height: 100vh;
+}
+
+.center_vertical {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 .one {
     background-color: #ffd21a;
@@ -98,7 +104,6 @@ a:hover {
 }
 
 .three .content {
-    margin-top: 100px;
     margin-left: 30px;
     margin-right: 80px;
 }
@@ -106,6 +111,22 @@ a:hover {
 .four .full_img {
 }
 
+.five {
+    color: #ffffff;
+    background-color: #3c4c93;
+}
+
+.five h2 {
+    font-size: 34px;
+    color: #6884fe;
+    margin-bottom: 10px;
+}
+
+.five h3 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
 
 
 .big_numeral {
@@ -122,7 +143,6 @@ a:hover {
 }
 
 .color_block h2 {
-    margin-top: 20px;
     color: #ffffff;
 }
 
