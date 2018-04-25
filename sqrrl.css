@@ -34,3 +34,34 @@ h2 {
 p {
     font-size: 16px;
 }
+
+.three{
+    background-color: #2a9279;
+}
+
+.section-title{
+    font-family:"AvenirNext-Bold";
+    color:#ffffff;
+    font-size:36px;
+}
+
+.list{
+    font-family: "Avenir Next";
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.bullet{
+    font-family: "AvenirNext-Bold";
+    color:#e37222;
+}
+
+.bottom_text{
+    font-family: "Avenir Next";
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#text-box{
+    padding-top: 15vh;
+}

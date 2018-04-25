@@ -80,7 +80,8 @@ body {
     transform: translate(-50%, -50%);
     text-decoration: none;
     font-family:"AvenirNext-Medium";
-    color: #ffffff;
+    color: #24305e;
+    text-align: center;
 }
 
 .entry_button:hover {
