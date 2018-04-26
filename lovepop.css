@@ -123,3 +123,8 @@ p {
     font-size: 20px;
 }
 
+#solution{
+    background-image: url(lovepoop_sticky.jpg);
+    background-repeat: no-repeat;
+    background-size: 51% 100%;
+}
