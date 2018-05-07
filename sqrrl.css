@@ -27,12 +27,20 @@ body {
 }
 
 h2 {
+    margin-top: 0;
+    color: #000000;
     font-family:"AvenirNext-Bold";
-    font-size: 52px;
 }
 
 p {
-    font-size: 16px;
+
+}
+.blurb {
+    margin-top: 25vh;
+}
+
+.blurb h2 {
+    text-align: right;
 }
 
 .three{
@@ -64,4 +72,37 @@ p {
 
 #text-box{
     padding-top: 15vh;
+}
+@media (min-width: 992px) {
+    h2 {
+        font-size: 52px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    h2 {
+        font-size: 46px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+    .big_numeral {
+        font-size: 52px;
+        text-align: left;
+        margin: 0;
+    }
+    h2 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 12px;
+    }
 }
