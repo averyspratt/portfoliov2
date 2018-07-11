@@ -159,9 +159,31 @@ a {
 
 .nine {
 	--bg-color: #ffffff;
-	--text-color: #2d58b2;
+	--text-color: #538dff;
 }
 
+.nine h2 {
+	color: #2d58b2;
+}
+
+.nine h3 {
+	color: #2d58b2;
+}
+
+.ten {
+	--bg-color: #5fa681;
+	--text-color: #ffffff;
+	color: var(--text-color);
+	background-color: var(--bg-color);
+}
+
+.ten h2 {
+	color: #ffffff;
+}
+
+.ten h3 {
+	color: #ffffff;
+}
 #lit{
     color:#2d58b2;
     text-align:left;
@@ -211,14 +233,6 @@ a {
 
 
 
-@media (min-width: 992px) {
-    h2 {
-        font-size: 42px;
-    }
-    p {
-        font-size: 16px;
-    }
-}
 
 
 #usability {
@@ -262,6 +276,16 @@ a {
     padding: 15px ;
     font-size: 16px;
 }
+
+@media (min-width: 992px) {
+    h2 {
+        font-size: 42px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 991px) and (min-width: 768px) {
     h2 {
         font-size: 37px;
