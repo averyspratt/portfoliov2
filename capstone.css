@@ -24,12 +24,6 @@ a {
     color: inherit;
 }
 
-a:hover {
-    text-decoration: none;
-    color: inherit;
-    font-family: "AvenirNext-MediumItalic";
-    letter-spacing: .1px;
-}
 
 .full_img {
     position: absolute;
@@ -88,8 +82,10 @@ a:hover {
     background-color: #2d58b2;
 }
 
-.three{
+.three {
     background-color:#5fa681;
+		--bg-color: #5fa681;
+		--text-color: #ffffff;
 }
 
 .three h2{
@@ -106,6 +102,16 @@ a:hover {
     font-family: "Avenir Next";
     color:#ffffff;
     padding-top: 10vh;
+}
+
+.four {
+	--bg-color: #ffffff;
+	--text-color: #538dff;
+}
+
+.four .content {
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .four h2{
@@ -135,6 +141,11 @@ a:hover {
 .five h3{
     font-family: "AvenirNext-Medium";
     text-align:center;
+}
+
+.six {
+	--bg-color: #5fa681;
+	--text-color: #ffffff;
 }
 
 .seven h2 {
@@ -172,19 +183,27 @@ a:hover {
 }
 
 
-.proposal_button{
+.link_button{
     display:block;
     width:20vw;
     margin:auto;
     margin-top: 4vh;
     font-family: "Avenir Next";
     text-align:center;
-    background-color: #5fa681;
-    border: 5px solid #ffffff;
-    color:#ffffff;
+	  background-color: var(--bg-color);
+    border: 5px solid var(--text-color);;
+    color: var(--text-color);
     padding: 15px ;
     font-size: 16px;
+		transition: color .25s, background-color .25s;
 }
+
+.link_button:hover {
+	text-decoration: none;
+	color: var(--bg-color);
+	background-color: var(--text-color);
+}
+
 
 
 @media (min-width: 992px) {
