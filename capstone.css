@@ -118,6 +118,34 @@ a:hover {
     text-align: center;
 }
 
+.four p{
+    font-family: "Avenir Next";
+    color:#000000;
+}
+
+.five {
+	background-color: #2d58b2;
+	color: #ffffff;
+}
+
+.five h2 {
+	color: #ffffff;
+}
+
+.five h3{
+    font-family: "AvenirNext-Medium";
+    text-align:center;
+}
+
+.seven h2 {
+	text-align: center;
+}
+
+.seven .content {
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
 #lit{
     color:#2d58b2;
     text-align:left;
@@ -143,10 +171,6 @@ a:hover {
     padding-top:2vh;
 }
 
-.four p{
-    font-family: "Avenir Next";
-    color:#000000;
-}
 
 .proposal_button{
     display:block;
@@ -172,10 +196,28 @@ a:hover {
     }
 }
 
-.five h3{
-    font-family: "AvenirNext-Medium";
-    text-align:center;
+
+#usability {
+	background-image: url(feedback_sticky.JPG);
+	background-repeat: no-repeat;
+	background-size: 51% 100%;
 }
+
+.color_block {
+	height: 100vh;
+	background-color: #5fa681;
+}
+
+.color_block h2 {
+	margin-top: 20px;
+	color: #ffffff;
+}
+
+.color_block p {
+	color: #ffffff;
+	margin: 20px;
+}
+
 
 .factor{
     font-family: "AvenirNext-Bold";
