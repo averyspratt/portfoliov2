@@ -61,10 +61,10 @@ a {
     scroll-snap-align: start;
     position: relative;
     overflow: hidden; 
-    height: 100vh;
+    min-height: 100vh;
 }
 .vertical_parent {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .center_vertical {
@@ -157,6 +157,11 @@ a {
 	margin-right: 10vw;
 }
 
+.nine {
+	--bg-color: #ffffff;
+	--text-color: #2d58b2;
+}
+
 #lit{
     color:#2d58b2;
     text-align:left;
@@ -223,7 +228,7 @@ a {
 }
 
 .color_block {
-	height: 100vh;
+	min-height: 100vh;
 	background-color: #5fa681;
 }
 
