@@ -118,24 +118,41 @@ a:hover {
     text-align: center;
 }
 
+#lit{
+    color:#2d58b2;
+    text-align:left;
+    font-family: "AvenirNext-Bold";
+    padding-top:2vh;
+}
+#survey{
+    color:#2d58b2;
+    text-align:left;
+    font-family: "AvenirNext-Bold";
+    padding-top:2vh;
+}
+#expert{
+    color:#2d58b2;
+    text-align:left;
+    font-family: "AvenirNext-Bold";
+    padding-top:2vh;
+}
+#market{
+    color:#2d58b2;
+    text-align:left;
+    font-family: "AvenirNext-Bold";
+    padding-top:2vh;
+}
 
 .four p{
     font-family: "Avenir Next";
     color:#000000;
 }
 
-p .section_title{
-    color:#2d58b2;
-    text-align:left;
-    font-family: "AvenirNext-Medium";
-    padding-top:2vh;
-}
-
 .proposal_button{
     display:block;
     width:20vw;
     margin:auto;
-    margin-top: 20vh;
+    margin-top: 4vh;
     font-family: "Avenir Next";
     text-align:center;
     background-color: #5fa681;
@@ -144,6 +161,8 @@ p .section_title{
     padding: 15px ;
     font-size: 16px;
 }
+
+
 @media (min-width: 992px) {
     h2 {
         font-size: 42px;
@@ -153,6 +172,30 @@ p .section_title{
     }
 }
 
+.five h3{
+    font-family: "AvenirNext-Medium";
+    text-align:center;
+}
+
+.factor{
+    font-family: "AvenirNext-Bold";
+    text-align:center;
+    color:#2D58B2;
+
+}
+.userresearch_button{
+    display:block;
+    width:20vw;
+    margin:auto;
+    margin-top: 4vh;
+    font-family: "Avenir Next";
+    text-align:center;
+    background-color: #2D58B2;
+    border: 5px solid #ffffff;
+    color:#ffffff;
+    padding: 15px ;
+    font-size: 16px;
+}
 @media (max-width: 991px) and (min-width: 768px) {
     h2 {
         font-size: 37px;
