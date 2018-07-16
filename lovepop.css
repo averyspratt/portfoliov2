@@ -17,6 +17,10 @@ p {
 }
 
 .back_button {
+    /* change to
+     * position: fixed;
+     * if you want the button to be on every page
+     */
     position: relative;
     height: 70px;
     width: 70px;
