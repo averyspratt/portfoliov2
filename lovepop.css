@@ -16,6 +16,43 @@ p {
     margin: 50px;
 }
 
+.back_button {
+    /* change to
+     * position: fixed;
+     * if you want the button to be on every page
+     */
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background-color: #feef77;
+    border-radius: 70px;
+    z-index: 1;
+    margin: 10px;
+}
+
+.back_arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back_arrow span {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-left: 3px solid #465fa1;
+    border-bottom: 3px solid #465fa1;
+    transform: translate(-5px, -10px) rotate(45deg);
+    transition: all .25s;
+}
+
+.back_button:hover .back_arrow span {
+    transform: translate(-5px, -10px) rotate(45deg) scale(1.2);
+    border-left: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
 .full_img {
     position: absolute;
     top: 50%;
