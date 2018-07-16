@@ -26,6 +26,39 @@ a {
     color: inherit;
 }
 
+.back_button {
+	position: relative;
+	height: 70px;
+	width: 70px;
+	background-color: #3c4c93;
+	border-radius: 70px;
+	z-index: 1;
+	margin: 10px;
+}
+
+.back_arrow {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.back_arrow span {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-left: 3px solid #6884fe;
+	border-bottom: 3px solid #6884fe;
+	transform: translate(-5px, -10px) rotate(45deg);
+	transition: all .25s;
+}
+
+.back_button:hover .back_arrow span {
+	transform: translate(-5px, -10px) rotate(45deg) scale(1.2);
+	border-left: 3px solid #ffffff;
+	border-bottom: 3px solid #ffffff;
+}
+
 a:hover {
     text-decoration: none;
     color: inherit;
