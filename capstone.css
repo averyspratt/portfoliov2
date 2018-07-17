@@ -192,13 +192,8 @@ a {
     padding-top:10vh;
 }
 .seven h2 {
-	text-align: center;
 }
 
-.seven .content {
-	margin-left: 10vw;
-	margin-right: 10vw;
-}
 
 .nine {
 	--bg-color: #ffffff;
@@ -275,18 +270,26 @@ a {
 }
 
 
-
-
-
 #usability {
 	background-image: url(feedback_sticky.JPG);
 	background-repeat: no-repeat;
 	background-size: 51% 100%;
 }
 
+#prototype {
+	min-height: 100vh;
+	background-image: url(prototype_photo.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
 .color_block {
 	min-height: 100vh;
 	background-color: #5fa681;
+}
+
+.seven .color_block {
+	background-color: #2d58b2;
 }
 
 .color_block h2 {
