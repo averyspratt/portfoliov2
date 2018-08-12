@@ -49,8 +49,8 @@ a {
     position: absolute;
     width: 20px;
     height: 20px;
-    border-left: 3px solid #8cc9B3;
-    border-bottom: 3px solid #8cc9B3;
+    border-left: 3px solid #0D6090;
+    border-bottom: 3px solid #0D6090;
     transform: translate(-5px, -10px) rotate(45deg);
     transition: all .25s;
 }
@@ -115,11 +115,11 @@ a {
 
 .one {
     position: relative;
-    background-color: #2d58b2;
+    background-color: #0D6090;
 }
 
 .three {
-    background-color:#0D6A90;
+    background-color:#0D6090;
 }
 
 .three h2{
@@ -139,7 +139,7 @@ a {
 	background-color: #ffffff;
 	color: #0D6A90;
 	--bg-color: #ffffff;
-		--text-color: #0D6A90;
+		--text-color: #0D6090;
 }
 
 .four p{
