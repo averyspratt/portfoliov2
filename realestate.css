@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    font-family:"AvenirNext-Medium";
+}
+
+h2 {
+    margin-top: 0;
+    color: #000000;
+    font-family:"AvenirNext-Bold";
+}
+.scroller {
+    scroll-snap-type: mandatory;
+
+    /* older spec implementation */
+    scroll-snap-destination: 0% 100%;
+    scroll-snap-points-x: repeat(100%);
+}
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.back_button {
+    /* change to
+     * position: fixed;
+     * if you want the button to be on every page
+     */
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background-color: #D88c7c;
+    border-radius: 70px;
+    z-index: 1;
+    margin: 10px;
+}
+
+.back_arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back_arrow span {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-left: 3px solid #8cc9B3;
+    border-bottom: 3px solid #8cc9B3;
+    transform: translate(-5px, -10px) rotate(45deg);
+    transition: all .25s;
+}
+
+.back_button:hover .back_arrow span {
+    transform: translate(-5px, -10px) rotate(45deg) scale(1.2);
+    border-left: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+.full_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+@media (orientation: landscape) {
+    .full_img {
+        width:100%;
+    }
+}
+
+@media (orientation: portrait) {
+    .full_img {
+        height:100%;
+    }
+
+}
+.blurb {
+}
+
+.blurb h2 {
+    font-size: 52px;
+    text-align: right;
+}
+
+.tags {
+    display: block;
+    margin-top: 50px;
+    font-size: 16px;
+}
+.pane {
+    scroll-snap-align: start;
+    position: relative;
+    overflow: hidden; 
+    min-height: 100vh;
+}
+.vertical_parent {
+    min-height: 100vh;
+}
+
+.center_vertical {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content {
+    margin: 50px;
+}
+
+.one {
+    position: relative;
+    background-color: #2d58b2;
+}
+
+.three {
+    background-color:#0D6A90;
+}
+
+.three h2{
+    color:#CFB87C;
+    text-align:center;
+    padding-top: 10vh;
+}
+
+
+.three p{
+    font-family: "Avenir Next";
+    color:#ffffff;
+
+}
+
+.four {
+	background-color: #ffffff;
+	color: #0D6A90;
+	--bg-color: #ffffff;
+		--text-color: #0D6A90;
+}
+
+.four p{
+
+}
+
+.four h2 {
+	color: #CFB87C;
+}
+
+
+.link_button{
+    display:block;
+    width:20vw;
+    margin:auto;
+    margin-top: 4vh;
+    font-family: "Avenir Next";
+    text-align:center;
+	  background-color: #CFB87C;
+    color: #ffffff;
+    padding: 15px ;
+    font-size: 16px;
+		transition: color .25s, background-color .25s;
+}
+
+.link_button:hover {
+	text-decoration: none;
+	color: var(--bg-color);
+	background-color: var(--text-color);
+}
+
+
+@media (min-width: 992px) {
+    h2 {
+        font-size: 42px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    h2 {
+        font-size: 37px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+    .big_numeral {
+        font-size: 52px;
+        text-align: left;
+        margin: 0;
+    }
+    h2 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+.blurb p{
+    font-size: 20px;
+}

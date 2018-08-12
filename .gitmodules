@@ -1,0 +1,3 @@
+[submodule "CUboulder"]
+	path = CUboulder
+	url = https://github.com/wwmairs/cu_retech.git
