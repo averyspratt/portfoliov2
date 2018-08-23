@@ -289,17 +289,14 @@ a {
 	background-color: #5fa681;
 }
 
-.seven .color_block {
-	background-color: #2d58b2;
-}
 
 .color_block h2 {
 	margin-top: 20px;
-	color: #ffffff;
+    color: #E8DFD5;;
 }
 
 .color_block p {
-	color: #ffffff;
+    color: #E8DFD5;
 	margin: 20px;
 }
 

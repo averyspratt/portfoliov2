@@ -83,18 +83,7 @@ body {
     color: #ffffff;
     text-align: center;
 }
-.entry_button h4 {
-    margin: 0;
-    display: block;
-    position: absolute;
-    top:80%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    text-decoration: none;
-    font-family:"AvenirNext-Medium";
-    color: #243053;
-    text-align: center;
-}
+
 .entry_button:hover {
     opacity: 1;
     -webkit-animation-name: fadeInUp;
